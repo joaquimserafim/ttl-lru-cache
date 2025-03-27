@@ -1,0 +1,7 @@
+public
+pnpm-lock.yaml
+.env.*
+.gitignore
+.husky
+.nvmrc
+.prettierignore

@@ -1,0 +1,42 @@
+{
+	"name": "@joaquimserafim/ttl-lru-cache",
+	"version": "0.1.0",
+	"description": "A TypeScript implementation of LRU (Least Recently Used) cache with TTL (Time To Live) support",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"build": "tsup",
+		"test": "vitest",
+		"coverage": "vitest run --coverage",
+		"prepublishOnly": "pnpm run build",
+		"prepare": "husky",
+		"format": "prettier --write .",
+		"format:ci": "prettier $(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g') --write --ignore-unknown"
+	},
+	"keywords": [
+		"cache",
+		"ttl",
+		"lru",
+		"typescript"
+	],
+	"author": "@joaquimserafim",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^22.13.13",
+		"@vitest/coverage-v8": "3.0.9",
+		"husky": "^9.1.7",
+		"prettier": "^3.5.3",
+		"tsup": "^8.4.0",
+		"typescript": "^5.8.2",
+		"vitest": "^3.0.9"
+	},
+	"dependencies": {
+		"@joaquimserafim/lru-cache": "^0.1.0"
+	}
+}
