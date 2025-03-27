@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@joaquimserafim/lru-cache':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^1.0.1
+        version: 1.0.1
     devDependencies:
       '@types/node':
         specifier: ^22.13.13
@@ -219,8 +219,8 @@ packages:
     resolution: {integrity: sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==}
     engines: {node: '>=8'}
 
-  '@joaquimserafim/lru-cache@0.1.0':
-    resolution: {integrity: sha512-rndofPY9GfUuusiXSGKWY5u+CHdFo8BIdShviIHTdCudjFWBHflJxNuOb8WXLB/2U0jzFXIZZS1dyqRK/lnQ/Q==}
+  '@joaquimserafim/lru-cache@1.0.1':
+    resolution: {integrity: sha512-4ToQZId2xcAFONxPc4ZAPHkkY/KAN9elV/bC9gwGfiIW2F67tkiUFtoo0seLZVYrG+0YVQri+wmcRlGmeDUF7w==}
 
   '@jridgewell/gen-mapping@0.3.8':
     resolution: {integrity: sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==}
@@ -1021,7 +1021,7 @@ snapshots:
 
   '@istanbuljs/schema@0.1.3': {}
 
-  '@joaquimserafim/lru-cache@0.1.0': {}
+  '@joaquimserafim/lru-cache@1.0.1': {}
 
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:

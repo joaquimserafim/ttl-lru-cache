@@ -41,6 +41,6 @@
 		"vitest": "^3.0.9"
 	},
 	"dependencies": {
-		"@joaquimserafim/lru-cache": "^0.1.0"
+		"@joaquimserafim/lru-cache": "^1.0.1"
 	}
 }
