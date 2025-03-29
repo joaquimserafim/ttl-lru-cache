@@ -1,1 +1,1 @@
-export * from "./ttl-lru-cache";
+export * from "./ttl-cache";
